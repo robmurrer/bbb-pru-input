@@ -15,9 +15,7 @@ An updated device tree compiler may be needed:
 
     wget -c https://raw.githubusercontent.com/RobertCNelson/tools/master/pkgs/dtc.sh; chmod +x dtc.sh; ./dtc.sh
 
-The PRU Drivers must also be installed:
-
-    https://github.com/beagleboard/am335x_pru_package
+<a href="https://github.com/beagleboard/am335x_pru_package">PRU Drivers</a>
 
 The HDMI must be disabled by adding the following line to `/boot/uEnv.txt`
 
